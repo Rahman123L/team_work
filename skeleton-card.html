@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RFERTECH</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Start -->
+    <script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+        extend: {
+            spacing: {
+            13: "3.25rem",
+            },
+            fontFamily: {
+            inter: ["Inter"],
+            ArchivoBlack: ["Archivo Black"],
+            Poppins: ["Poppins"],
+            },
+            animation: {
+            "spin-slow": "spin 3s linear infinite",
+            shake: "shake 1s ease-in-out infinite",
+            },
+            keyframes: {
+            shake: {
+                "0%, 100%": {
+                transform: "rotate(-10deg)",
+                },
+                "50%": {
+                transform: "rotate(10deg)",
+                },
+            },
+            },
+        },
+        },
+    };
+    </script>
+    <!-- Tailwind End -->
+
+    <!-- Css Start -->
+    <style>
+
+    </style>
+    <!-- Css End -->
+
+</head>
+<body class="bg-[#1A202C]">
+
+    <div class="container mt-10 px-6 font-inter mx-auto sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+        <div class="rounded-lg bg-[#171923] lg:bg-[#2D3748] shadow-lg overflow-hidden mb-10 md:w-[20rem] lg:w-[22rem] animate-pulse">
+            <div class="items-center mt-2 mb-2 mx-3">
+                <div class="items-center gap-3">
+                    <div class="flex">
+                        <div class="flex gap-3 overflow-hidden">
+                            <div class="w-10 h-10 overflow-hidden border-2 border-gray-400 rounded-full">
+                                <div class="object-cover w-full h-full bg-gray-600"></div>
+                            </div>
+                            <div class="flex flex-col">
+                                <div class="flex mb-1">
+                                    <!-- Nickname batas 25 karakter -->
+                                    <p class="text-white font-bold w-[10.5rem] h-5 bg-gray-600 rounded-md"></p>
+                                    <div class="w-5 h-5 mx-1 bg-gray-600 rounded-lg"></div>
+                                </div>
+                                <p class="text-[#718096] text-sm w-[9rem] h-5 bg-gray-600 rounded-md"></p>
+                            </div>
+                        </div>
+                        <div class="grow"></div>
+                        <div class="w-[7px] cursor-pointer h-11 bg-gray-600 rounded-md"></div>
+                    </div>             
+                </div>
+            </div>
+            <div class="w-full h-[16rem] bg-cover bg-gray-600"></div>
+            <div class="flex px-3 py-2 overflow-hidden">
+                <div class="py-1 px-1 font-inter font-medium text-sm text-[#9D9EA0] w-[6.2rem] h-7 bg-gray-600 rounded-md"></div>
+                <div class="grow"></div>
+                <button class="w-[6.4rem] h-7 bg-gray-600 font-bold px-2 rounded-full tracking-wide py-1.5 text-xs text-[#18F4B2]"></button>
+            </div>
+            <div class="px-6">
+                <div class="font-inter font-bold text-xl uppercase mb-2 text-[#18F4B2] w-[8.3rem] h-7 bg-gray-600 rounded-md"></div>
+                    <div class="max-w-xl h-[6rem] overflow-y-scroll">
+                        <p class="font-inter text-base font-normal text-[#FFFFFF] mb-2 w-full h-[6rem] bg-gray-600 rounded-md"></p>
+                    </div>
+                <div class="py-4 flex gap-5">
+                    <button class="flex cursor-pointer gap-3 w-[2.6rem] h-6 bg-gray-600 rounded-md">
+                        <img class="w-5">
+                        <h1 class="text-white"></h1>
+                    </button>
+                    <button class="flex cursor-pointer gap-3 w-[2.6rem] h-6 bg-gray-600 rounded-md">
+                        <img class="w-5">
+                        <h1 class="text-white"></h1>
+                    </button>
+                    <button class="flex cursor-pointer gap-3 w-[2.6rem] h-6 bg-gray-600 rounded-md">
+                        <img class="w-5">
+                        <h1 class="text-white"></h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-lg bg-[#171923] lg:bg-[#2D3748] shadow-lg overflow-hidden mb-10 md:w-[20rem] lg:w-[22rem]">
+            <div class="items-center mt-2 mb-2 mx-3">
+                <div class="items-center gap-3">
+                    <div class="flex">
+                        <div class="flex gap-3 overflow-hidden">
+                            <div class="w-10 h-10 overflow-hidden border-2 border-gray-400 rounded-full">
+                                <img class="object-cover w-full h-full" src="images/OIP.jpg"/>
+                            </div>
+                            <div class="flex flex-col">
+                                <div class="flex">
+                                    <!-- Nickname batas 25 karakter -->
+                                    <p class="text-white font-bold">Rizky Rahman Rambe</p>
+                                    <img class="w-5 h-5 mx-1 mt-[3.5px]" src="images/verify-icon.svg">
+                                </div>
+                                <p class="text-[#718096] text-sm">Tobangado@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="grow"></div>
+                        <img class="w-[6px] cursor-pointer" src="images/ellipsis-icon.svg">
+                    </div>             
+                </div>
+            </div>
+            <img class="w-full h-[16rem] bg-cover" src="images/Background (2).jpg">
+            <div class="flex px-3 py-2 overflow-hidden">
+                <div class="py-1 px-1 font-inter font-medium text-sm text-[#9D9EA0]">12 JUNI 2023</div>
+                <div class="grow"></div>
+                <button class="bg-[#22242457] font-bold px-2 rounded-full tracking-wide py-1.5 text-xs text-[#18F4B2]">DESIGN UI/UX</button>
+            </div>
+            <div class="px-6">
+                <div class="font-inter font-bold text-xl mb-2 text-[#18F4B2]">ECOMMERCE</div>
+                    <div class="max-w-xl h-[6rem] overflow-y-scroll">
+                        <p class="font-inter text-base font-normal text-[#FFFFFF] mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur commodi iste libero ratione cum quia sint mollitia asperiores placeat sapiente saepe dolore est temporibus, incidunt architecto laboriosam culpa distinctio consequuntur. Ipsum a, quaerat, nobis natus quo temporibus, vero reiciendis fugit dignissimos blanditiis nesciunt at nisi impedit dolore delectus? Nemo, doloribus?</p>
+                    </div>
+                <div class="py-4 flex gap-5">
+                    <button class="flex cursor-pointer gap-3">
+                        <img class="w-5" src="images/thumbs-icon.svg">
+                        <h1 class="text-white">0</h1>
+                    </button>
+                    <button class="flex cursor-pointer gap-3">
+                        <img class="w-5" src="images/coment-icon.svg">
+                        <h1 class="text-white">0</h1>
+                    </button>
+                    <button class="flex cursor-pointer gap-3">
+                        <img class="w-5" src="images/share-icon.svg">
+                        <h1 class="text-white">0</h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Start -->
+    <script>
+
+    </script>
+    <!-- Script End -->
+
+</body>
+</html>

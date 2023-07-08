@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RFERTECH</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Start -->
+    <script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+        extend: {
+            spacing: {
+            13: "3.25rem",
+            },
+            fontFamily: {
+            inter: ["Inter"],
+            ArchivoBlack: ["Archivo Black"],
+            Poppins: ["Poppins"],
+            },
+            animation: {
+            "spin-slow": "spin 3s linear infinite",
+            shake: "shake 1s ease-in-out infinite",
+            },
+            keyframes: {
+            shake: {
+                "0%, 100%": {
+                transform: "rotate(-10deg)",
+                },
+                "50%": {
+                transform: "rotate(10deg)",
+                },
+            },
+            },
+        },
+        },
+    };
+    </script>
+    <!-- Tailwind End -->
+
+    <!-- Css Start -->
+    <style>
+
+    </style>
+    <!-- Css End -->
+
+</head>
+<body class="bg-[#1A202C]">
+
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:p-0 pt-16 lg:pt-20 animate-pulse">
+        <div class="absolute mt-[3rem] lg:mt-[10rem] lg:ml-16">
+            <div class="flex">
+                <div class="flex gap-3 overflow-hidden">
+                    <div class="w-28 h-28 lg:w-[16rem] lg:h-[16rem] rounded-full overflow-hidden border-4 lg:border-8 border-gray-400">
+                        <div class="object-cover w-full h-full bg-gray-600"></div>
+                    </div>
+                    <div class="flex flex-col lg:ml-[.5rem]">
+                        <div class="">
+                            <div class="flex mt-8 lg:mt-[6rem]">
+                                <!-- Nickname batas 25 karakter -->
+                                <p class="font-inter font-bold text-base lg:text-5xl text-white w-[10.5rem] lg:w-[31.5rem] h-6 lg:h-[3rem] bg-gray-600 rounded-md lg:rounded-xl"></p>
+                                <div class="w-5 h-5 lg:w-10 lg:h-10 mx-1 lg:mx-3 mt-[2px] lg:mt-[4px] bg-gray-600 rounded-md lg:rounded-xl"></div>
+                            </div>
+                            <div class="flex-col overflow-hidden py-1 lg:py-2">
+                                <p class="font-inter font-semibold text-xs lg:text-3xl lg:leading-[3rem] text-white w-[7.2rem] lg:w-[18rem] h-4 lg:h-[3rem] bg-gray-600 rounded-md lg:rounded-xl"></p>
+                            </div>
+                            <div class="flex mt-1 gap-1">
+                                <button class="lg:w-[8.5rem] lg:h-[2.8rem] px-4 py-2 mx-1 font-inter rounded-full lg:rounded-md font-semibold lg:text-lg bg-gray-600 text-[#319795]">
+                                    <div class="flex items-center">
+                                        <a href="edit.html">
+                                            <span class="mx-1 hidden lg:block">
+                                                
+                                            </span>
+                                            <div class="w-3 h-3 lg:hidden"></div>
+                                        </a>
+                                    </div>
+                                </button>
+                            
+                                <button class="lg:w-[9rem] lg:h-[2.8rem] px-4 py-2 mx-1 font-inter rounded-full lg:rounded-md font-semibold lg:text-lg bg-gray-600 text-[#319795]">
+                                    <div class="flex items-center">
+                                        <a href="create.html">
+                                            <span class="mx-1 hidden lg:block">
+                                                
+                                            </span>
+                                            <div class="w-3 h-3 lg:hidden"></div>
+                                        </a>
+                                    </div>
+                                </button>
+
+                                <button class="lg:w-[6.4rem] lg:h-[2.8rem] px-4 py-2 mx-1 font-inter rounded-full lg:rounded-md font-semibold lg:text-lg bg-gray-600 text-[#319795]">
+                                    <div class="flex items-center">
+                                        <a href="logout.html">
+                                            <span class="mx-1 hidden lg:block">
+                                                
+                                            </span>
+                                            <div class="w-3 h-3 lg:hidden"></div>
+                                        </a>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-full h-[4.5rem] lg:h-[15rem] bg-cover bg-gray-600"></div>
+
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full pb-10 border-b-2 border-gray-800 animate-pulse">
+        <div class="lg:ml-20 lg:mr-[20rem] mt-[6.5rem] lg:mt-[13rem] font-inter font-medium text-xs lg:text-2xl text-white">
+            <div class="w-full h-[4rem] lg:h-[8rem] bg-gray-600 rounded-md lg:rounded-xl">
+                <p></p>
+            </div>
+            <div class="mt-3 lg:mt-7 flex space-x-5 lg:space-x-14">
+                <div class="w-[4.3rem] lg:w-[8.6rem] h-6 lg:h-[2rem] bg-gray-600 rounded-md lg:rounded-xl">
+                    <p></p>
+                </div>
+                <div class="w-[2rem] lg:w-[3.8rem] h-6 lg:h-[2rem] bg-gray-600 rounded-md lg:rounded-xl">
+                    <p></p>
+                </div>
+                <div class="flex space-x-2 lg:space-x-5">
+                    <button class="w-6 lg:w-[2.5rem] bg-gray-600 rounded-md lg:rounded-xl">
+                        <div class="w-5 lg:w-[2rem]"></div>
+                    </button>
+                
+                    <button class="w-6 lg:w-[2.5rem] bg-gray-600 rounded-md lg:rounded-xl">
+                        <div class="w-5 lg:w-[2rem]"></div>
+                    </button>
+
+                    <button class="w-6 lg:w-[2.5rem] bg-gray-600 rounded-md lg:rounded-xl">
+                        <div class="w-5 lg:w-[2rem]"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script Start -->
+    <script>
+
+    </script>
+    <!-- Script End -->
+
+</body>
+</html>
