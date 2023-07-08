@@ -57,7 +57,7 @@
 <body class="bg-[#1A202C]">
 
     <!-- Header Start -->
-    <header class="bg-[#1A202C] fixed top-0 left-0 w-full flex items-center z-20">
+    <header class="bg-[#1A202C] fixed top-0 left-0 w-full flex items-center z-20 border-b-2 border-gray-800">
     <div class="container flex">
         <div class="flex items-center justify-between relative">
         <div class="flex items-center ml-10 py-6">
@@ -95,10 +95,8 @@
     </header>
     <!-- Header End -->
 
-    <div class="mt-20 border-t-2 border-gray-800"></div>
-
     <!-- Hero start -->
-    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:p-0">
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:p-0 pt-16 lg:pt-20">
         <div class="absolute mt-[3rem] lg:mt-[10rem] lg:ml-16">
             <div class="flex">
                 <div class="flex gap-3 overflow-hidden">
@@ -115,13 +113,15 @@
                             <div class="flex-col overflow-hidden">
                                 <p class="font-inter font-semibold text-xs lg:text-3xl lg:leading-[3rem] text-white">Frontend Developer</p>
                             </div>
-                            <div class="flex mt-1 space-x-1 lg:space-x-[1rem]">
+                            <div class="flex mt-1 gap-1 lg:gap-[1rem]">
                                 <button class="px-4 py-2 mx-1 font-inter rounded-full lg:rounded-md font-semibold lg:text-lg bg-[#319795] lg:bg-inherit text-[#319795] border border-[#03FAEB]">
                                     <div class="flex items-center">
-                                        <span class="mx-1 hidden lg:block">
-                                            Edit Profile
-                                        </span>
-                                        <img class="w-3 h-3 lg:hidden" src="images/gear-icon.svg">
+                                        <a href="edit.html">
+                                            <span class="mx-1 hidden lg:block">
+                                                Edit Profile
+                                            </span>
+                                            <img class="w-3 h-3 lg:hidden" src="images/gear-icon.svg">
+                                        </a>
                                     </div>
                                 </button>
                             
@@ -135,6 +135,17 @@
                                         </a>
                                     </div>
                                 </button>
+
+                                <button class="px-4 py-2 mx-1 font-inter rounded-full lg:rounded-md font-semibold lg:text-lg bg-[#319795] lg:bg-inherit text-[#319795] border border-[#03FAEB]">
+                                    <div class="flex items-center">
+                                        <a href="logout.html">
+                                            <span class="mx-1 hidden lg:block">
+                                                Logout
+                                            </span>
+                                            <img class="w-3 h-3 lg:hidden" src="images/logout-icon.svg">
+                                        </a>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -144,7 +155,7 @@
     </div>
     <div class="w-full h-[4.5rem] lg:h-[15rem] bg-cover" style="background-image: url('images/Background (2).jpg')"></div>
 
-    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:p-0">
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full lg:p-0 pb-10 border-b-2 border-gray-800">
         <div class="lg:ml-20 lg:mr-[20rem] mt-[6.5rem] lg:mt-[13rem] font-inter font-medium text-xs lg:text-2xl text-white">
             <p>Lorem ipsum dolor sit amet consectetur. Diam arcu consectetur sit elit diam amet. Auctor tortor nunc mauris orci consectetur aliquet risus vehicula dolor. Vel tortor felis ipsum ipsum. Odio netus faucibus libero ut pretium lobortis consectetur enim.</p>
             <div class="mt-3 lg:mt-7 flex space-x-5 lg:space-x-14">
@@ -167,8 +178,6 @@
         </div>
     </div>
     <!-- Hero End -->
-
-    <div class="mt-14 border-t-2 border-gray-800"></div>
 
     <!-- Card Start -->
     <p class="mt-10 mb-28 font-inter font-bold text-lg lg:text-2xl text-[#18F4B2] text-center">POSTINGAN</p>
@@ -338,10 +347,8 @@
     </div>
     <!-- Card End -->
 
-    <div class="mt-10 border-t-2 border-gray-800"></div>
-
     <!-- Footer Start -->
-    <footer class="container mt-5 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full">
+    <footer class="container mt-5 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full pt-10 pb-10 border-t-2 border-gray-800">
         <div class="lg:flex mx-10">
             <div class="w-full lg:w-1/6">
                 <div class="text-center">
@@ -385,7 +392,7 @@
                         <a href="#" class="block mt-2 text-sm text-white hover:text-[#39d0ce]">Testimonials</a>
                     </div>
 
-                    <div class="col-span-2 lg:col-span-1">
+                    <div class="col-span-2 lg:col-span-1 pb-10">
                         <h3 class="text-white py-5 hover:text-[#39d0ce] uppercase cursor-pointer">Stay up to date</h3>                      
                         <div class="absolute inset-x-6 lg:inset-x-auto">
                             <span class="absolute inset-y-0 right-0 flex items-center">
@@ -404,8 +411,6 @@
         </div>
     </footer>
     <!-- Footer End -->
-
-    <div class="mt-16 border-t-2 border-gray-800"></div>
 
     <!-- Script Start -->
     <script>
