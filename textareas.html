@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RFERTECH</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+
+    <!-- Tailwind Start -->
+    <script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+        extend: {
+            spacing: {
+            13: "3.25rem",
+            },
+            fontFamily: {
+            inter: ["Inter"],
+            ArchivoBlack: ["Archivo Black"],
+            Poppins: ["Poppins"],
+            },
+            animation: {
+            "spin-slow": "spin 3s linear infinite",
+            shake: "shake 1s ease-in-out infinite",
+            },
+            keyframes: {
+            shake: {
+                "0%, 100%": {
+                transform: "rotate(-10deg)",
+                },
+                "50%": {
+                transform: "rotate(10deg)",
+                },
+            },
+            },
+        },
+        },
+    };
+    </script>
+    <!-- Tailwind End -->
+
+    <!-- Css Start -->
+    <style>
+
+    </style>
+    <!-- Css End -->
+
+</head>
+<body class="bg-[#1A202C]">
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full pb-10 pt-16 lg:pt-20">
+        <div class="lg:p-16 lg:flex-1">
+            <div class="flex gap-2">
+                <div class="mt-5">
+                    <button class="px-6 py-2 text-xs lg:text-sm font-medium tracking-wide text-white bg-[#39d0ce] rounded-lg hover:bg-[#148098]">
+                        WRITE
+                    </button>
+                </div>
+
+                <div class="mt-5">
+                    <button class="px-6 py-2 text-xs lg:text-sm font-medium tracking-wide text-white bg-[#39d0ce] rounded-lg hover:bg-[#148098]">
+                        PREVIEW
+                    </button>
+                </div>
+            </div>
+            <div class="">
+                <textarea placeholder="Description.." class="block mt-2 w-full placeholder-gray-400 rounded-lg bg-white px-4 h-[10rem] lg:h-[15rem] py-2.5 text-black focus:border-[#39d0ce] focus:outline-none focus:ring focus:ring-[#148098]"></textarea>
+            </div>
+            <div class="">
+                <div class="flex mt-2">
+                    <div class="grow"></div>
+                    <button class="px-6 py-2 text-sm lg:text-base font-medium tracking-wide text-white bg-blue-500 rounded-lg hover:bg-blue-700">
+                        POST
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="lg:p-16 hidden lg:flex lg:w-1/2">
+            <img class="w-full h-full object-cover rounded-xl" src="images/hero-image.svg">
+        </div>
+    </div>
+
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full pb-10">
+        <div class="lg:p-16 lg:flex-1">
+            <div class="flex gap-2">
+                <div class="mt-5">
+                    <button class="px-6 py-2 text-xs font-medium tracking-wide text-white bg-[#39d0ce] rounded-lg hover:bg-[#148098]">
+                        WRITE
+                    </button>
+                </div>
+
+                <div class="mt-5">
+                    <button class="px-6 py-2 text-xs font-medium tracking-wide text-white bg-[#39d0ce] rounded-lg hover:bg-[#148098]">
+                        PREVIEW
+                    </button>
+                </div>
+            </div>
+            <div class="">
+                <div class="w-full mt-2 rounded-lg bg-white px-4 h-full py-2.5">
+                    <p class="text-sm text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vel.</p>
+                    <div class="mt-[1rem] border-b border-gray-500"></div>
+                </div>
+            </div>
+            <div class="">
+                <div class="flex mt-2">
+                    <div class="grow"></div>
+                    <button class="px-6 py-2 text-sm font-medium tracking-wide text-white bg-blue-500 rounded-lg hover:bg-blue-700">
+                        POST
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="lg:p-16 hidden lg:flex lg:w-1/2">
+            <img class="w-full h-full object-cover rounded-xl" src="images/hero-image.svg">
+        </div>
+    </div>
+    
+    
+    <!-- Script Start -->
+    <script>
+
+    </script>
+    <!-- Script End -->
+
+</body>
+</html>
