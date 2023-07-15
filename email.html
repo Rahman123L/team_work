@@ -49,7 +49,64 @@
 
     <!-- Css Start -->
     <style>
-
+        .container {
+            width: 100%;
+            margin-top: 2.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+            font-family: 'Inter', sans-serif;
+            max-width: 28rem;
+        }
+        .header {
+            width: 100%;
+            border-radius: 0.5rem;
+            background-color: #292D3B;
+        }
+        div > img {
+            width: 100%;
+            background-size: cover;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+        }
+        .text {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        div > h1 {
+            color: white;
+            text-align: center;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+            padding-bottom: 0.75rem;
+        }
+        div > p {
+            color: white;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            padding-bottom: 0.75rem;
+        }
+        .button {
+            padding-bottom: 1.25rem;
+        }
+        div > a >  button {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            font-weight: 500;
+            letter-spacing: 0.025rem;
+            color: white;
+            background-color: #39d0ce;
+            border-radius: 0.5rem;
+        }
+        div > a > button:hover {
+            background-color: #148098;
+        }
     </style>
     <!-- Css End -->
 
@@ -57,18 +114,18 @@
 <body class="bg-[#1A202C]">
 
     <!-- Form start -->
-    <div class="container mt-10 px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:max-w-full pb-10 pt-10">
-        <div class="w-full rounded-lg bg-[#292D3B]">
-            <img class="w-full lg:h-[20rem] bg-cover py-5 px-5" src="https://i.ibb.co/SVX1tb4/Turquoise-Simple-Modern-Linkedin-Banner.png" alt="Turquoise-Simple-Modern-Linkedin-Banner">
+    <div class="container">
+        <div class="header">
+            <img class="img" src="https://i.ibb.co/SVX1tb4/Turquoise-Simple-Modern-Linkedin-Banner.png" alt="Turquoise-Simple-Modern-Linkedin-Banner">
 
-            <div class="px-6">
-                <h1 class="text-white text-center text-xl font-medium pb-3">Selamat Datang, Username,<br> Di <span class="text-[#319795]">Rfertech!</span></h1>
-                <p class="text-white text-sm pb-3">Rfertech adalah sebuah platform inovatif yang menggabungkan teknologi mobile dan desktop. Di sini, setiap pengguna memiliki kesempatan untuk memberikan penilaian dan umpan balik terhadap proyek-proyek yang kami hasilkan.</p>
-                <p class="text-white text-sm pb-3">Kami percaya bahwa kolaborasi dan partisipasi aktif dari komunitas kami adalah kunci untuk mengembangkan proyek-proyek berkualitas. Oleh karena itu, kami mengundang Anda untuk bergabung dengan kami dalam memperkaya hasil karya kami.</p>
-                <p class="text-white text-sm pb-3">Jangan lewatkan kesempatan untuk menjelajahi halaman Rfertech. Klik tombol di bawah ini dan mari kita bersama-sama mewujudkan proyek-proyek luar biasa!</p>
-                <div class="pb-5">
+            <div class="text">
+                <h1>Selamat Datang, Username,<br> Di <span style="color: #319795;">Rfertech!</span></h1>
+                <p>Rfertech adalah sebuah platform inovatif yang menggabungkan teknologi mobile dan desktop. Di sini, setiap pengguna memiliki kesempatan untuk memberikan penilaian dan umpan balik terhadap proyek-proyek yang kami hasilkan.</p>
+                <p>Kami percaya bahwa kolaborasi dan partisipasi aktif dari komunitas kami adalah kunci untuk mengembangkan proyek-proyek berkualitas. Oleh karena itu, kami mengundang Anda untuk bergabung dengan kami dalam memperkaya hasil karya kami.</p>
+                <p>Jangan lewatkan kesempatan untuk menjelajahi halaman Rfertech. Klik tombol di bawah ini dan mari kita bersama-sama mewujudkan proyek-proyek luar biasa!</p>
+                <div class="button">
                     <a href="https://rfertech.vercel.app/">
-                        <button class="px-6 py-2 font-medium tracking-wide text-white bg-[#39d0ce] rounded-lg hover:bg-[#148098]">
+                        <button>
                             Go to Website
                         </button>
                     </a>
